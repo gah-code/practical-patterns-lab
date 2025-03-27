@@ -1,18 +1,13 @@
 import { useState } from 'react';
 import './App.css';
-import TipApp from './core-components/TipApp';
+import EatApp from './exercises/EatApp/EatApp';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <h1>test</h1>
-      <TipApp />
+      <EatApp />
     </>
   );
 }
-
-<h1></h1>;
 
 export default App;

@@ -1,4 +1,4 @@
-# Practical Patterns Lab
+# Practical Patterns Lab DRAFT
 
 This repository is a hands-on lab for React developers looking to practice and reinforce React concepts I've found helpful, advanced state management strategies, performance optimizations, and more. Each central concept lives in its folder, accompanied by Markdown documentation explaining the relevant patterns and best practices.
 
@@ -65,6 +65,9 @@ practical-patterns-lab/
 │   │   ├── loaders/
 │   │   │   └── fetchPosts.js        # Example data loader
 │   │   └── spa-architecture.md
+│   ├── exercises/
+│   │   ├── EatApp/
+│   │   │   └── EatApp.jsx           # Config for React Router v6.4+ 
 │   ├── core-components/
 │   │   ├── Button.jsx
 │   │   ├── Modal.jsx
