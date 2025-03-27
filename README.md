@@ -2,6 +2,10 @@
 
 This repository is a hands-on lab for React developers looking to practice and reinforce React concepts I've found helpful, advanced state management strategies, performance optimizations, and more. Each central concept lives in its folder, accompanied by Markdown documentation explaining the relevant patterns and best practices.
 
+## Jest + Babel Configuration (Minimal Example) DRAFT
+
+Jest testing configuration to ensure seamless testing of your React components with Babel and Testing Library.
+
 ## Table of Contents
 
 - [Overview](#overview)  
@@ -32,6 +36,7 @@ Key highlights:
 2. **Hands-On Examples**: Each concept folder includes code examples and a `.md` file describing core ideas and usage scenarios.
 3. **Best Practices**: Demonstrate recommended approaches for hooking up contexts, reducers, or advanced routing while avoiding typical React pitfalls.
 4. **Performance & Accessibility**: Highlight performance patterns (e.g., memoization, Suspense) and maintain high accessibility standards.
+5. **Robust Testing**: Showcase a working Jest + Babel + Testing Library setup for verifying component correctness in a DOM-like environment.
 
 ---
 
