@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import TipApp from './TipApp';
+import TipApp from './core-components/TipApp';
 
 function App() {
   const [count, setCount] = useState(0);
