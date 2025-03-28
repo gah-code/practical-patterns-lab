@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import EatApp from './exercises/EatApp/EatApp';
+import EatApp from './event-handling/exercise-one/EatApp';
 
 function App() {
   return (

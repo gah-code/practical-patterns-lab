@@ -38,26 +38,44 @@ function Button({ children, onClick }) {
 
 export default function EatApp() {
   // State to hold list of friends
+  const [friends, setFriends] = useState(initialFriends);
+
+  // State to toggle Add Friend form visibility
+  const [showAddFriend, setShowAddFriend] = useState(false);
+
+  // State to hold selected friend for bill splitting
+  const [selectedFriend, setSelectedFriend] = useState(null);
+
+  // Toggle Add Friend form visibility
+
+  // Add new friend to the list and close form
+
+  // Select or deselect friend for bill splitting
+
+  // Update the balance when splitting the bill
 
   return (
     <div className='app'>
       {/* Friends List Component */}
 
       <div className='sidebar'>
-        <FriendsList />
+        <FriendsList friends={friends} />
 
         {/* Conditional rendering: Show Add Friend form if true */}
 
         {/* Button to toggle Add Friend form */}
+        <Button>Add Friend</Button>
       </div>
+      <FormSplitBill />
     </div>
   );
 }
 
-function FriendsList({}) {
+// 📚 Component 3: FriendsList and Friend
+
+function FriendsList({ friends }) {
   // Map through friends list to create Friend components
 
-  const friends = initialFriends;
   return (
     <ul>
       {friends.map((friend) => (
@@ -95,6 +113,8 @@ function Friend({ friend }) {
   );
 }
 
+// 📚 Component 4: FormAddFriend
+
 function FormAddFriend({}) {
   // State for new friend's name and image
 
@@ -105,7 +125,11 @@ function FormAddFriend({}) {
   );
 }
 
+// 📚 Component 5: FormSplitBill
+
 function FormSplitBill() {
+  // Bill and payment states
+
   return (
     <form className='form-split-bill'>
       <h2>Split a bill with X</h2>

@@ -80,6 +80,8 @@ practical-patterns-lab/
 ├── .eslintrc.json                   # ESLint configuration
 ├── package.json
 ├── vite.config.js                   # Vite configuration
+├── babel.config.js
+├── jest.config.cjs
 └── README.md                        # This file
 ```
 
